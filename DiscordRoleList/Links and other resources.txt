@@ -1,0 +1,6 @@
+﻿
+Link to the docs:
+https://docs.stillu.cc/index.html
+
+Link to the repo:
+https://github.com/RogueException/Discord.Net

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="mysqlConfig" value="server=IP_HERE;uid=USERNAME_HERE;pwd=PASSWORD_HERE;database=DATABASE_HERE;"/> <!-- Mysql Connection string.. -->
+    <add key="mysqlColoum" value="COLOUM_NAME" /> <!-- The coloum in the database. The coloum has to contain the discord-id! Not the username!! -->
+    <add key="mysqlTable" value="TABLE_NAME" /> <!-- The table from the databse -->
+    <add key="bottoken" value="DISCORD_ID" /> <!-- Your Discord-bot token -->
+    <add key="statusText" value="Making sure Patreons have the Donator role..." /> <!-- What "Game" should the bot be "playing" -->
+    <add key="timerInterval" value="15000" /> <!-- In milliseconds: How often to recheck the database. 900000 is recommended (15m) -->
+    <add key="rolesToAdd" value="ROLE_ID1;ROLE_ID2;ROLE_ID3" /> <!-- RoleID's.. To add more seperate by ; -->
+  </appSettings>
+</configuration>
